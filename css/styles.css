@@ -1,9 +1,25 @@
 *{
     font-family: Raleway;
     font-weight: 600;
+    padding: 10px;
 }
+
+
 main{
-    margin: 5px 100px 5px 100px;
+    /* margin: 5px 100px 5px 100px; */
+    display: inline-block;
+    position:relative;
+    width: 100%;
+}
+
+.left{
+    width: 65%;
+    float: left;
+}
+
+.right{
+    width: 25%;
+    float: right;
 }
 
 nav{
@@ -14,7 +30,7 @@ nav{
 
 a{
     text-decoration: none;
-margin: auto;
+    margin: auto;
 }
 
 header > nav>a{
@@ -69,4 +85,8 @@ nav+p{
 p{
     font-family: Lato;
     font-weight: 400;
+}
+
+hr{
+
 }
