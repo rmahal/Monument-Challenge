@@ -204,21 +204,21 @@ textarea{
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 
 .grid-email{
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 
 .grid-subject{
     grid-column-start: 7;
     grid-column-end: 10;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 
 .grid-messege{
@@ -256,5 +256,50 @@ footer{
 }
 
 hr{
-    
+ size: 1px;
+ border-color: black;
+ margin: 0rem;
+ padding: 0rem;   
 }
+
+.navfooter{
+    display: block;
+    padding: 1em;
+}
+
+
+.afooter{
+    height: 24rem;
+    font-size: 40px;
+}
+
+#afootid{
+    font-size: 40px;
+    color: #46545F;
+}
+
+i{
+    color: 	#46545F;
+}
+
+#pfooter{
+    color: #46545F;
+}
+
+
+
+
+
+/* MEDIA QUEREY FOR FIRST CHANGE */
+
+@media screen and (max-width: 768px) {
+    #felxdiv{
+        flex-direction: column;
+    }
+
+    div.divclass{
+        width: 100%;
+    }
+
+
+  }

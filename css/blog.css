@@ -4,12 +4,16 @@
     /* padding: 10px; */
 }
 
+nav>a:active{
+    text-decoration: none;
+    color: #86A0AD;
+}
 nav>a:visited {
-    color:	#92A2AC;
+    color:	#3B7BAD;
 }
 
 h1>a:visited {
-    color:	#92A2AC;
+    color:	#86A0AD;
 }
 
 
@@ -117,3 +121,18 @@ form{
     position: relative;
     text-align: center;
 }
+
+
+
+
+
+/* MEDIA QUEREY FOR FIRST CHANGE */
+
+@media screen and (min-width: 600px) {
+    #flexdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+  }
